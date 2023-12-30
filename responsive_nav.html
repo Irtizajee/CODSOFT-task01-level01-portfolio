@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        nav{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: space-between; */
+
+        }
+        .cross_btn{
+            width: 100%;
+            /* height: 90px; */
+            padding: 10px 0px;
+            /* background-color: green; */
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .cross_btn a{
+            text-decoration: none;
+            margin-right: 40px;
+            margin-top: 20px;
+            font-size: 25px;
+            color: black;
+        }
+        .links{
+            width: 100%;
+            /* background-color: green; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+            justify-content: center;
+        }
+        .links div{
+            margin-top: 30px;
+            
+        }
+        .links div a{
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="responsive">
+        <div class="cross_btn">
+            <a href="index.html"><h1>X</h1></a>
+        </div>
+        <div class="links">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="index.html#about">About</a></div>
+            <div><a href="index.html#skills">Skills</a></div>
+            <div><a href="index.html#projects">Projects</a></div>
+            <div><a href="index.html#contact">Contact</a></div>
+            <div><a href="index.html">Resume</a></div>
+        </div>
+    </nav>
+</body>
+</html>

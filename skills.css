@@ -1,0 +1,117 @@
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: green; */
+}
+.skills_container{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 600px;
+    /* height: 300px; */
+    margin: 20px 0px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.progress_div{
+    /* border: 1px solid black; */
+    /* height: 100px; */
+    /* margin-top: ; */
+
+}
+.progress_div div{
+    height: 30px;
+}
+.progress_div_1{
+    /* background-color: purple; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    height: 50px!important;
+    padding: 10px 10px!important;
+    box-sizing: border-box;
+}
+.progress_div_2{
+    /* background-color:white; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* justify-content: space-between; */
+
+    padding: 20px 10px;
+    /* justify-content: space-around; */
+}
+.progress_div_2 i{
+    font-size: 30px;
+    
+}
+.progress_back{
+    /* width: ; */
+    width: 400px;
+    height: 7px!important;
+    border-radius: 10px;
+    /* background-color: #814ebf!important; */
+    /* border: 1px solid black; */
+    /* margin-left: 30px; */
+    /* margin-left: 20px; */
+}
+.progress_bar{
+    background-color: #814ebf!important;
+    /* width: 70%; */
+    border-radius: 10px;
+    height:  100%!important;
+    transition: .8s all 0s;
+}
+#html_bar{
+    width: 19%;
+}
+#css_bar{
+    width: 13%;
+}
+#js_bar{
+    width: 16%;
+}
+#react_bar{
+    width: 10%;
+}
+
+@media only screen and (max-width:644px)
+{
+    .skills_container{
+        /* border: 1px solid red; */
+        width: 600px;
+        /* height: 300px; */
+        margin: 20px 0px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+        
+    }
+}
+@media only screen and (max-width:552px)
+{
+    .skills_container{
+        /* border: 1px solid red; */
+        width: 600px;
+        /* height: 300px; */
+        margin: 20px 0px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        
+    }
+    .progress_back{
+        /* width: ; */
+        width: 300px;
+        height: 10px!important;
+        border-radius: 10px;
+        /* background-color: orange!important; */
+        /* border: 1px solid black; */
+        /* margin-left: 30px; */
+        /* margin-left: 20px; */
+    }
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irtaza's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="responsive_nav.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="name" style="color: #814ebf;">
+            Irtaza Ali
+        </div>
+        <div class="links">
+            <a href="index.html#home">Home</a>
+            <a href="#about">About</a>
+            <a id="skillsPercentChange" href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a download href="Irtaza Resume.pdf">Resume</a>
+        </div>
+    </div>
+    <div class="responsive_nav">
+        <div class="responsive_container">
+        <div><h2>Irtaza Ali</h2></div>
+        <div><a href="responsive_nav.html"><i style="color: black;" class="fa-solid fa-bars"></i></a></div>
+    </div>
+    </div>
+
+    <div id="home" class="home">
+        <div class="home_container">
+            <div class="home_bio">
+                <div>
+                    <h1 style="color:#814ebf;">Front-end React Developer</h1>
+                </div>
+                <div>
+                    <p>Hi, I am Irtaza Ali. A Front-end Developer from Karachi, Pakistan.</p>
+                </div>
+                <div class="social_links">
+                  <a target="_blank" href="https://github.com/Irtizajee?tab=repositories" style="text-decoration: none;"><i style="color: white;" class="fa-brands fa-github"></i></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/irtaza-ali-3b8b9a2a1" style="text-decoration: none;"><i style="color: white;" class="fa-brands fa-linkedin"></i></a>
+                  <a href="Irtaza Resume.pdf" download><button>My Resume</button></a>
+                </div>
+                <div class="home_skills">
+                    <span>Skills |</span>
+                    <span>
+                        <i style="color: #E05229;" class="fa-brands fa-html5"></i>
+                        <i style="color: #2B4AE3;" class="fa-brands fa-css3-alt"></i>
+                        <i style="color: #EDDA1C;" class="fa-brands fa-js"></i>
+                        <i style="color: #68cff6;" class="fa-brands fa-react"></i>
+                        <i style="color: #43267D;" class="fa-brands fa-bootstrap"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="home_pic">
+                <img src="main.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="about" class="about">
+        <div class="about_container">
+            <div class="about_image_div">
+                <img src="p1.jpg" alt="">
+            </div>
+            <div class="about_des_div">
+
+                <div>
+                    <h3>ABOUT ME</h3>
+                </div>
+                <div>
+                    <h1>A dedicated Front-end Developer based in Karachi, Pakistan</h1>
+                </div>
+                <div>
+                    <p>Hi there, I'm Irtaza Ali, a front-end developer with a passion for crafting exceptional web
+                        experiences. I specialize in React.js and responsive design, and I have a knack for website
+                        cloning
+                        and logic building. I love tackling complex problems and turning them into elegant solutions.
+                        Let's
+                        collaborate and bring your web projects to life!</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="skills" class="skills">
+        <div class="skills_container">
+            <div class="progress_div">
+                <div class="progress_div_1">
+                    <span>HTML5</span>
+                    <!-- <span id="html_percent">89%</span> -->
+                    <span id="html_percent">89%</span>
+                </div>
+                <div class="progress_div_2">
+                    <div><i style="color: #E05229;" class="fa-brands fa-html5"></i></div>
+                    <div class="progress_back">
+                        <div id="html_bar" class="progress_bar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="progress_div">
+                <div class="progress_div_1">
+                    <span>CSS3</span>
+                    <span id="css_percent" >80%</span>
+                </div>
+                <div class="progress_div_2">
+                    <div><i style="color: #2B4AE3;" class="fa-brands fa-css3-alt"></i></div>
+                    <div class="progress_back">
+                        <div id="css_bar" class="progress_bar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="progress_div">
+                <div class="progress_div_1">
+                    <span>JavaScript</span>
+                    <span id="js_percent">86%</span>
+                </div>
+                <div class="progress_div_2">
+                    <div><i style="color: #EDDA1C;" class="fa-brands fa-js"></i></div>
+                    <div class="progress_back">
+                        <div id="js_bar" class="progress_bar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="progress_div">
+                <div class="progress_div_1">
+                    <span>React</span>
+                    <span id="react_percent">70%</span>
+                </div>
+                <div class="progress_div_2">
+                    <div><i style="color: #68cff6;" class="fa-brands fa-react"></i></div>
+                    <div class="progress_back">
+                        <div id="react_bar" class="progress_bar"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div id="projects" class="projects">
+        <div class="projects_container">
+            <div id="navigate_skills1" class="project_listing">
+                <div class="project_listing_heading">
+                    <div>
+                        <h2>Weather Application</h2>
+                    </div>
+                    <div>
+                        <p>I built a dynamic Weather Application that fetches real-time weather data from a third-party
+                            API and displays it in an engaging user interface. Users can input location details to
+                            receive current weather information</p>
+
+                    </div>
+                    <div class="projects_links_div">
+                        <a target="_blank" href="https://github.com/Irtizajee/Weather-Application">Code <i class="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://weatherapplication-react-app.netlify.app/">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project_listing_pic">
+                    <img src="project_pic/weather.jpg" alt="">
+                </div>
+            </div>
+            <div class="project_listing">   
+                <div class="project_listing_heading">
+                    <div> 
+                        <h2>Todo List</h2>
+                    </div>
+                    <div>
+                        <p>I implemented a Todo List application using react js . The application allows users to add,
+                            edit, and delete tasks . The project emphasizes the fundamentals of web development,
+                            showcasing the manipulation of the Document Object Model (DOM) to dynamically update and
+                            render tasks.</p>
+
+                    </div>
+                    <div class="projects_links_div">
+                        <a href="https://github.com/Irtizajee/Todo-List-App">Code <i class="fa-brands fa-github"></i></a>
+                        <a href="https://todo-listing-react.netlify.app/">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project_listing_pic">
+                    <img src="project_pic/todoModified.jpg" alt="">
+                </div>
+            </div>
+            <div class="project_listing">
+                <div class="project_listing_heading">
+                    <div>
+                        <h2>Spotify Clone</h2>
+                    </div>
+                    <div>
+                        <p>I developed a Spotify clone using React JS, creating a web application that replicates the
+                            user interface. With a responsive design and intuitive user experience, the project aims to
+                            provide a seamless and familiar environment for users who are accustomed to the Spotify
+                            interface.</p>
+
+                    </div>
+                    <div class="projects_links_div">
+                        <a href="https://github.com/Irtizajee/Spotify-Clone">Code <i class="fa-brands fa-github"></i></a>
+                        <a href="https://spotify-clone-copywrite-irtaza.netlify.app/">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project_listing_pic">
+                    <img src="project_pic/spotify.jpg" alt="">
+                </div>
+            </div>
+            <div class="project_listing">
+                <div class="project_listing_heading">
+                    <div>
+                        <h2>Netflix Clone</h2>
+                    </div>
+                    <div>
+                        <p>Enjoy personalized recommendations, user-friendly navigation, and stay up-to-date with the
+                            latest releases. Our clone brings the Netflix experience to your device with a familiar
+                            interface.</p>
+                    </div>
+                    <div class="projects_links_div">
+                        <a href="https://github.com/Irtizajee/Netflix-Clone">Code <i class="fa-brands fa-github"></i></a>
+                        <a href="https://clonning-app.netlify.app/">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project_listing_pic">
+                    <img src="project_pic/netflix.jpg" alt="">
+                </div>
+            </div>
+            <div class="project_listing">
+                <div class="project_listing_heading">
+                    <div>
+                        <h2>Clone of Code With Harry</h2>
+                    </div>
+                    <div>
+                        <p>Explore a wide range of coding languages, interactive tutorials, and real-time coding
+                            practice. Join a thriving coding community, take on challenges, and track your progress.
+                            Your coding journey begins here!</p>
+
+                    </div>
+                    <div class="projects_links_div">
+                        <a href="https://github.com/Irtizajee/Clone_of_codewithharry_site">Code <i class="fa-brands fa-github"></i></a>
+                        <a href="https://code-with-harry-clone.netlify.app/">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project_listing_pic">
+                    <img src="project_pic/codewithharry.png" alt="">
+                </div>
+            </div>
+            <div class="project_listing">
+                <div class="project_listing_heading">
+                    <div>
+                        <h2>Case Converter</h2>
+                    </div>
+                    <div>
+                        <p>Whether you need to switch from uppercase to lowercase, capitalize sentences, or format text
+                            in title case, our tool simplifies the process. Say goodbye to manual case adjustments and
+                            effortlessly transform your text with a few clicks!</p>
+
+                    </div>
+                    <div class="projects_links_div">
+                        <a href="https://github.com/Irtizajee/case_converter">Code <i class="fa-brands fa-github"></i></a>
+                        <a href="https://case-converter-text.netlify.app/">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project_listing_pic">
+                    <img src="project_pic/caseConverter.png" alt="">
+                </div>
+            </div>
+            <div class="project_listing">
+                <div class="project_listing_heading">
+                    <div>
+                        <h2>Clock</h2>
+                    </div>
+                    <div>
+                        <p>With its silent movement and impeccable craftsmanship, this clock not only keeps perfect time
+                            but also adds a touch of sophistication to any room. Elevate your space with the beauty and
+                            functionality of our Exquisite Clock today</p>
+
+                    </div>
+                    <div class="projects_links_div">
+                        <a href="https://github.com/Irtizajee/Clock_analog_digital">Code <i class="fa-brands fa-github"></i></a>
+                        <a href="https://clock-digitalanalog.netlify.app/">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project_listing_pic">
+                    <img src="project_pic/clock.png" alt="">
+                </div>
+            </div>
+            <div id="navigate_skills" class="project_listing">
+                <div class="project_listing_heading">
+                    <div>
+                        <h2>Shuffle Lines</h2>
+                    </div>
+                    <div>
+                        <p>Shuffle Text Lines Tool is a unique creative tool that takes a set of text lines as input and
+                            outputs them after shuffling in random order. The text line randomization may come in handy
+                            in a variety of scenarios.</p>
+
+                    </div>
+                    <div class="projects_links_div">
+                        <a target="_blank" href="https://github.com/Irtizajee/shuffle_lines">Code <i class="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://shuffle-lines.netlify.app/">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project_listing_pic">
+                    <img src="project_pic/suffler.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact" class="contact">
+        <div class="contact_container">
+            <div class="contact_list">
+                <div>
+                    <h2>Phone</h2>
+                    <p> <i style="color: rgb(0, 139, 253);" class="fa-solid fa-phone"></i> <span>+923082449203</span> <i id="btn_copy_number" class="fa-solid fa-copy"></i>
+                    </p>
+                </div>
+                <div>
+                    <h2>Email</h2>
+                    <p> <i style="color: rgb(161, 47, 47);" class="fa-solid fa-envelope"></i> <span>aliirtiza643@gmail.com</span> <i id="btn_copy_email" class="fa-solid fa-copy"></i> </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer_container">
+            <div class="footer_des">
+                <div>
+                    <h1>Irtaza Ali</h1>
+                </div>
+                <div>
+                    <p>Copyright © 2023 </p>
+                </div>
+            </div>
+            <div class="footer_links">
+               <a href="https://github.com/Irtizajee?tab=repositories" target="_blank" style="text-decoration: none; cursor: pointer;"><i style="color:#161415 ;" class="fa-brands fa-github"></i></a> 
+               <a href="https://www.linkedin.com/in/irtaza-ali-3b8b9a2a1" target="_blank" style="text-decoration: none; cursor: pointer;"> <i style="color: #3F7FB9;" class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
